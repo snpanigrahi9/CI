@@ -13,7 +13,7 @@ public class Jenkin {
 		System.setProperty("webdriver.chrome.driver","D:\\Workspace\\CI\\Driver\\chromedriver.exe");
 		WebDriver d = new ChromeDriver();
 		
-		d.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
+		d.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		
 		d.get("http://www.anandabazar.com/");
 		d.manage().window().maximize();
