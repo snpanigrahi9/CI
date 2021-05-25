@@ -16,6 +16,12 @@ public class Jenkin {
 		d.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		
 		d.get("http://www.anandabazar.com/");
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		d.manage().window().maximize();
 
 	}
