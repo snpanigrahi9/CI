@@ -10,6 +10,7 @@ public class Jenkin {
 
 		//adding comment
 		//adding another comment
+		//all
 		System.setProperty("webdriver.chrome.driver","D:\\Workspace\\CI\\Driver\\chromedriver.exe");
 		WebDriver d = new ChromeDriver();
 		
