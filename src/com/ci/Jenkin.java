@@ -14,7 +14,7 @@ public class Jenkin {
 		System.setProperty("webdriver.chrome.driver","D:\\Workspace\\CI\\Driver\\chromedriver.exe");
 		WebDriver d = new ChromeDriver();
 		
-		d.manage().timeouts().implicitlyWait(35,TimeUnit.SECONDS);
+		d.manage().timeouts().implicitlyWait(45,TimeUnit.SECONDS);
 		
 		d.get("http://www.anandabazar.com/");
 		try {
